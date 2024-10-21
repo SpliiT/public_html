@@ -1,0 +1,5 @@
+# Activer la réécriture d'URL
+RewriteEngine On
+
+# Rediriger les requêtes vers un script PHP pour gérer les erreurs 404
+ErrorDocument 404 /public_html/404.php

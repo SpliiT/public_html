@@ -1,0 +1,53 @@
+:root {
+  --primary-color: black;
+  --secondary-color: white;
+
+}
+
+
+  form {
+    max-width: 400px;
+    margin-right: auto;
+    margin-left:auto;
+    margin-bottom:10vh;
+    padding: 20px;
+    border: 1px solid #ccc;
+  }
+
+
+button {
+  width: 100%;
+  background-color: var(--primary-color);
+  border: solid 1px var(--secondary-color);
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  cursor: pointer;
+}
+
+button:active {
+  background-color: var(--secondary-color);
+  color:black;
+}
+
+.titre-form { 
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  padding: 10px;
+}
+
+input, textarea, select { 
+  width: 100%;
+  padding: 12px 20px;
+  margin-top: 8px;
+  margin-bottom: 18px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+label {
+  font-weight: bold;
+}
+
